@@ -16,13 +16,13 @@ class Cat(db.Model):
 #         self.color = color
 #         self.personality = personality
 
-#     def to_dict(self):
-#         return dict(
-#             id=self.id,
-#             name=self.name,
-#             color=self.color,
-#             personality=self.personality
-#             )
+    def to_dict(self):
+        return dict(
+            id=self.id,
+            name=self.name,
+            color=self.color,
+            personality=self.personality
+            )
 
 # cats = [
 #     Cat(1, "Luna", "black/white", "lazy"),
